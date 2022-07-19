@@ -1,0 +1,23 @@
+{
+  "name": "crypto-stats-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "crypto-stats": "./src/app.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "prettier": "^2.6.0",
+    "babel-eslint": "^10.1.0"
+  }
+}
